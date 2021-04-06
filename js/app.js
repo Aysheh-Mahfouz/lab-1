@@ -83,6 +83,9 @@ case 'n':
 }
 
 
+alert('Thnxx 4 taking the time to visit my website ' + userName);
+
+
 
 
 
