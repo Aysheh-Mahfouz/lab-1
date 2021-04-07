@@ -185,7 +185,7 @@ function guesscolor() {
       }
     }
 
-  } return colors;
+  } 
 }
 
 guesscolor();
