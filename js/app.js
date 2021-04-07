@@ -31,6 +31,9 @@ switch (school.toLowerCase()) {
 question1()
 
 let view = prompt('are you a TA?');
+function question2() {
+  
+
 switch (view.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -45,6 +48,8 @@ switch (view.toLowerCase()) {
     break;
 
 }
+}
+question2()
 
 let music = prompt('do i like music?');
 switch (music.toLowerCase()) {
