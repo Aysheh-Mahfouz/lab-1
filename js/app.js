@@ -52,6 +52,9 @@ switch (view.toLowerCase()) {
 question2()
 
 let music = prompt('do i like music?');
+function question3() {
+  
+
 switch (music.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -65,6 +68,8 @@ switch (music.toLowerCase()) {
     break;
 
 }
+}
+question3()
 
 let myName = prompt('do you know my nickname?');
 switch (myName.toLowerCase()) {
