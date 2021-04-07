@@ -109,18 +109,16 @@ function guessNum() {
     if (count > attempts) {
       alert(' the correct answer is ' + number);
       break;
-    }
-
-    if (picks === number) {
+    }else if (picks === number) {
       alert(' Lucky NUM 7! ' + score++);
       break;
     }
 
-    if (picks > number) {
+    else if (picks > number) {
       alert('too high');
     }
 
-    if (picks < number) {
+    else if (picks < number) {
       alert('too low');
     }
 
