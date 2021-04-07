@@ -93,6 +93,9 @@ switch (myName.toLowerCase()) {
 question4()
 
 let travel = prompt('have i travelled before?');
+function question5() {
+  
+
 switch (travel.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -106,7 +109,8 @@ switch (travel.toLowerCase()) {
     break;
 
 }
-
+}
+question5()
 
 function question6() {
   
