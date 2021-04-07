@@ -72,6 +72,9 @@ switch (music.toLowerCase()) {
 question3()
 
 let myName = prompt('do you know my nickname?');
+function question4() {
+  
+
 switch (myName.toLowerCase()) {
   case 'yes':
   case 'y':
@@ -86,6 +89,8 @@ switch (myName.toLowerCase()) {
     break;
 
 }
+}
+question4()
 
 let travel = prompt('have i travelled before?');
 switch (travel.toLowerCase()) {
