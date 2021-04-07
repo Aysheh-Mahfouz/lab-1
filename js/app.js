@@ -214,7 +214,9 @@ function guesscolor() {
 guesscolor();
 
 
-
+function result() {
+  
 alert('your score is' + ' ' + score + '/7');
-
+return(alert);
+}
 alert('Thnxx 4 taking the time to visit my website ' + userName);
