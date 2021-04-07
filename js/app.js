@@ -5,6 +5,9 @@ alert('WELCOME');
 
 let score = 0;
 let userName = prompt('what is your name?');
+function question1() {
+  
+
 userName = userName.toUpperCase();
 console.log(userName);
 alert('welcome to my page ' + userName);
@@ -24,7 +27,8 @@ switch (school.toLowerCase()) {
     break;
 
 }
-
+}
+question1()
 
 let view = prompt('are you a TA?');
 switch (view.toLowerCase()) {
